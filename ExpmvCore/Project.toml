@@ -1,0 +1,7 @@
+name = "ExpmvCore"
+uuid = "08d6d8b8-3c9c-4c77-8a4f-ab2df6813922"
+authors = ["José E. Cruz Serrallés"]
+version = "0.1.0-DEV"
+
+[deps]
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
