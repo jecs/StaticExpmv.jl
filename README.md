@@ -11,7 +11,7 @@ StaticExpmv implements the operation $e^A x$ for `StaticMatrix` $A$ and `SVector
 ```
 using StaticExpmv,StaticArrays
 import LinearAlgebra
-A = I+SMatrix{10,10}(randn(10,10))
+A = LinearAlgebra.I+SMatrix{10,10}(randn(10,10))
 x = SVector{10}(randn(10))
 y = expmv(A,x)
 ```
