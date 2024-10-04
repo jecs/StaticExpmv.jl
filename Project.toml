@@ -1,7 +1,7 @@
 name = "StaticExpmv"
 uuid = "7ffd5987-f1dd-4542-811f-a1b7b421c787"
 authors = ["José E. Cruz Serrallés"]
-version = "0.1.0-DEV"
+version = "0.1.0"
 
 [deps]
 ExpmvCore = "08d6d8b8-3c9c-4c77-8a4f-ab2df6813922"
@@ -10,6 +10,8 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 [compat]
 julia = "1.6.7"
+ExpmvCore = "0.1.0"
+StaticArrays = "1.9"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
